@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #0ff;
+  --color-neon-teal: #008080;
+  --color-charcoal: #121212;
+  --color-card-dark: #1e1e1e;
+}
+
+@layer base {
+  body {
+    @apply bg-charcoal text-white font-sans;
+  }
+}
